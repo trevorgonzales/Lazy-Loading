@@ -1,4 +1,4 @@
-# Lightweight Lazy Loading
+# Lazy Loading Plugin - Lightweight
 Simple library for lazy loading images as they come into view.
 
 ## Requirements & Application
@@ -15,6 +15,8 @@ We exclude the **src** attribute because the moment a browser see's that it will
 ```
 <img data-type="lazy" data-src="/some-image.jpg" height="20" alt="Some Image">
 ```
+
+_*Options to be added soon_
 
 ## Note
 
