@@ -31,10 +31,6 @@ const load_lazies = () => {
 				item.src = item.dataset.src;
 				item.style.opacity = 1;
 				visible_lazies.push(item);
-
-				// Stat Counter - not required, but confirms working
-				loaded_stat.innerHTML = visible_lazies.length;
-				not_loaded_stat.innerHTML = lazy_collection.length - visible_lazies.length;
 			}
 		});
 
