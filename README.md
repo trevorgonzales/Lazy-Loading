@@ -1,5 +1,5 @@
 # Lazy Loading Plugin - Lightweight
-Simple library for lazy loading images as they come into view.
+Simple library for lazy loading images as they come into view. Small and fast at < 2kb
 
 ## Requirements & Application
 
