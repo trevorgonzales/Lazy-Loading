@@ -1,7 +1,6 @@
 // Cached variable
 let lazy_collection = [];
 let visible_lazies = [];
-let current_scroll_pos = window.scrollY;
 
 const set_opacity_transitions = (arr) => {
 	arr.forEach((lazy) => {
@@ -27,7 +26,7 @@ const load_lazies = () => {
 	if (visible_lazies.length < lazy_collection.length) {
 		lazy_collection.forEach((item) => {
 			const ePos = item.getBoundingClientRect().top - window.innerHeight;
-			if (ePos < current_scroll_pos && item.src.length < 1) {
+			if (ePos < window.scrollY && item.src.length < 1) {
 				item.src = item.dataset.src;
 				item.style.opacity = 1;
 				visible_lazies.push(item);
