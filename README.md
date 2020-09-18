@@ -20,4 +20,4 @@ _*Options to be added soon_
 
 ## Note
 
-Just a rough build for my own personal gain I though might be worth sharing in case others find it useful. You can view working copy here: <https://codepen.io/dark_Matter/pen/bGpxerd>
+Just a rough build for my own personal gain I though might be worth sharing in case others find it useful. You can view working copy here: <https://codepen.io/dark_Matter/live/bGpxerd>
